@@ -1,0 +1,40 @@
+.faq-accordion .panel-title a.collapsed::before, .faq-accordion .panel-title a::after {
+    content: "";
+    font-family: fontawesome;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+/* #jQuery jGrowl
+================================================== */
+div.jGrowl{z-index:9999;color:#fff;font-size:12px}
+div.ie6{position:absolute}
+div.ie6.top-right{right:auto;bottom:auto;left:expression((0 - jGrowl.offsetWidth+(document.documentElement.clientWidth ? document.documentElement.clientWidth:document.body.clientWidth)+(ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft:document.body.scrollLeft))+'px');top:expression((0+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop:document.body.scrollTop))+'px')}
+div.ie6.top-left{left:expression((0+(ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft:document.body.scrollLeft))+'px');top:expression((0+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop:document.body.scrollTop))+'px')}
+div.ie6.bottom-right{left:expression((0 - jGrowl.offsetWidth+(document.documentElement.clientWidth ? document.documentElement.clientWidth:document.body.clientWidth)+(ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft:document.body.scrollLeft))+'px');top:expression((0 - jGrowl.offsetHeight+(document.documentElement.clientHeight ? document.documentElement.clientHeight:document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop:document.body.scrollTop))+'px')}
+div.ie6.bottom-left{left:expression((0+(ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft:document.body.scrollLeft))+'px');top:expression((0 - jGrowl.offsetHeight+(document.documentElement.clientHeight ? document.documentElement.clientHeight:document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop:document.body.scrollTop))+'px')}
+div.ie6.center{left:expression((0+(ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft:document.body.scrollLeft))+'px');top:expression((0+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop:document.body.scrollTop))+'px');width:100%}
+div.jGrowl{position:absolute}
+body>div.jGrowl{position:fixed}
+div.jGrowl.top-left{left:0;top:0}
+div.jGrowl.top-right{right:0;top:0}
+div.jGrowl.bottom-left{left:0;bottom:0}
+div.jGrowl.bottom-right{right:0;bottom:0}
+div.jGrowl.center{top:0;width:50%;left:25%}
+div.center div.jGrowl-notification,div.center div.jGrowl-closer{margin-left:auto;margin-right:auto}
+div.jGrowl div.jGrowl-notification,div.jGrowl div.jGrowl-closer{background-color: #ffffff;color: #828282;zoom: 1;width: 300px;padding: 15px;margin-top: 5px;margin-bottom: 5px;font-size: 1em;text-align: left;display: none;-webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px;  border-radius: 3px; border: 1px solid #dadada;}
+div.jGrowl div.jGrowl-notification{min-height:40px;position:relative}
+div.jGrowl div.jGrowl-notification,div.jGrowl div.jGrowl-closer{margin:20px 40px;}
+div.jGrowl div.jGrowl-notification div.jGrowl-header{font-weight:bold;font-size:.85em}
+div.jGrowl div.jGrowl-notification div.jGrowl-close{z-index:99;position:absolute;top:10px;left:10px;font-size:14px;cursor:pointer;display:block;color:#ff4557;}
+div.jGrowl div.jGrowl-notification div.jGrowl-close:hover{color: #A43641;}
+div.jGrowl div.jGrowl-notification div.jGrowl-close .icon-remove-circle{display:block;}
+div.jGrowl div.jGrowl-notification div.jGrowl-message{display:inline-block}
+div.jGrowl div.jGrowl-notification div.jGrowl-message img{max-width:100%}
+div.jGrowl div.jGrowl-notification .jGrowl-title{margin:0;padding:0}
+div.jGrowl div.jGrowl-notification .jGrowl-note{margin-top:5px; text-transform:uppercase}
+div.jGrowl div.jGrowl-notification .jGrowl-note a{color: #828282;}
+div.jGrowl div.jGrowl-notification .jGrowl-note a:hover{color: #0186c8;}
+div.jGrowl div.jGrowl-closer{padding-top:4px;padding-bottom:4px;cursor:pointer;font-size:.9em;font-weight:bold;text-align:center;color: #1e1e1e;}
+div.jGrowl div.jGrowl-closer:hover{color: #828282;}
+@media print{div.jGrowl{display:none}}
