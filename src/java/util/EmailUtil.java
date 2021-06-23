@@ -25,8 +25,8 @@ public class EmailUtil {
 
     private static final String host = "smtp.gmail.com";
     private static final String port = "587";
-    private static final String userName = "buivtuan103@gmail.com";
-    private static final String password = "nlpdvlcm";
+    private static final String userName = "admin@gmail.com";
+    private static final String password = "123";
 
     public static void sendMail(String recipient, String subject, String message) throws AddressException, MessagingException {
         //set cac thuoc tinh
